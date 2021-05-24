@@ -1,12 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-       <!-- Required meta tags -->
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    
-        <!-- Bootstrap CSS -->
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    
-    </head>
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="style.css">
+    <title>Weather App </title>
+</head>
+
+<body>
+    <header class="navbar navbar-dark bg-dark text-white text-center p-2">
+        <h2>Weather Dashboard</h2>
+        </div>
+    </header>
+    <main class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-md-3 p-2 search-column">
+                <form class = "border p-2" id="citySearch">
+                    <h4>Search for a City</h4>
+                    <input id="city type="text" autofocus="true" class = "form-input" />
+                    <button class="btn btn-primary" type="submit">Search City</button>
+                </form>
+                <div class="past-search" id="pastButton"></div>
+            </div>
+        </div>
+
+    </main>
+
+</body>
+
 </html>
