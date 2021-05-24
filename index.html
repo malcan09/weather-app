@@ -24,16 +24,30 @@
     <main class="container-fluid">
         <div class="row">
             <div class="col-12 col-md-3 p-2 search-column">
-                <form class = "border p-2" id="citySearch">
+                <form class="border p-2" id="citySearch">
                     <h4>Search for a City</h4>
-                    <input id="city type="text" autofocus="true" class = "form-input" />
+                    <input id="city type=" text" autofocus="true" class="form-input" />
                     <button class="btn btn-primary" type="submit">Search City</button>
                 </form>
                 <div class="past-search" id="pastButton"></div>
             </div>
+            <div class="row border selected-city" id="currentWeather">
+                <div class="col-12">
+                    <h2  id="searchedCity></h2>
+                    <div id="weatherContainer" class="list-group"></div>
+                </div>
+            </div>
+            <div class="row border" id="fiveDay">
+                <h2 class="col-12" id="forecast"></h2>
+                <div class="d-flex" id="dayContainer"></div>
+            </div>
         </div>
 
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.27.0/moment.min.js"></script>
+    <script src="script.js"></script>
 
 </body>
 
