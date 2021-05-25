@@ -1,3 +1,13 @@
+header{
+    font-family: 'Courier New', Courier, monospace;
+}
 .h2{
     text-align: center;
 }
+
+.search-column {
+    background-color:white;
+    font-family: 'Courier New', Courier, monospace;
+    padding-left: 10%;
+}
+
